@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\QZL.dir/objects.a
+D:\mingw64\bin\ar.exe qc CMakeFiles\QZL.dir/objects.a @CMakeFiles\QZL.dir\objects1.rsp
+D:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\QZL.dir/objects.a -Wl,--no-whole-archive -o QZL.exe -Wl,--out-implib,libQZL.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\QZL.dir\linkLibs.rsp

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/seventeen/Desktop/qzl/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe  @CMakeFiles/QZL.dir/includes_C.rsp -g -o CMakeFiles\\QZL.dir\\src\\main.obj -c C:\\Users\\seventeen\\Desktop\\qzl\\src\\main.c",
+  "file": "C:/Users/seventeen/Desktop/qzl/src/main.c",
+  "output": "CMakeFiles/QZL.dir/src/main.obj"
+}
+]
