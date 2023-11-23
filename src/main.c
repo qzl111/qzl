@@ -1,12 +1,13 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 
-int main()
-{   
-	int myage = 18;
-	int a = 10;
-	int b = a >> 2;
+struct Person {
+    char name[20];
+    int age;
+    float height;
+};
 
-	char ch = 'A';
-	printf("%d,%c,%d\n", myage,ch,b);
-	return 0;
+int main() {
+    struct Person person;
+    printf("%d\n", sizeof(person));
+    return 0;
 }
