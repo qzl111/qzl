@@ -8,6 +8,6 @@ struct Person {
 
 int main() {
     struct Person person;
-    printf("ÄãºÃ%d\n", sizeof(person));
+    printf("ÄãºÃ°¡%d\n", sizeof(person));
     return 0;
 }
